@@ -73,6 +73,7 @@
                 type="text"
                 class="form-control"
                 id="firstName"
+                required
               />
             </div>
             <div class="col">
@@ -82,21 +83,22 @@
                 type="text"
                 class="form-control"
                 id="lastName"
+                required
               />
             </div>
           </div>
         </div>
         <div class="form-group">
           <label for="contact">Contact</label>
-          <input name="contact" type="text" class="form-control" id="contact" />
+          <input name="contact" type="text" class="form-control" id="contact" required/>
         </div>
         <div class="form-group">
           <label for="city">City</label>
-          <input name="city" type="text" class="form-control" id="city" />
+          <input name="city" type="text" class="form-control" id="city" required/>
         </div>
         <div class="form-group">
           <label for="state">State</label>
-          <input name="state" type="text" class="form-control" id="state" />
+          <input name="state" type="text" class="form-control" id="state" required/>
         </div>
         <div class="form-check form-check-inline">
           <input
@@ -105,6 +107,7 @@
             name="dealershipType"
             id="sub"
             value="sub"
+            required
           />
           <label class="form-check-label" for="sub">Sub-dealership</label>
         </div>
@@ -115,6 +118,7 @@
             name="dealershipType"
             id="premium"
             value="premium"
+            required
           />
           <label class="form-check-label" for="premium"
             >Premium dealership</label
